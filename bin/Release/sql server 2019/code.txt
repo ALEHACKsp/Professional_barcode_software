@@ -1,0 +1,11 @@
+USE QRDB
+GO
+create TABLE tablcontacts(
+ID INT IDENTITY NOT NULL,
+Producer VARCHAR(100) ,
+Total VARCHAR(100) ,
+Note VARCHAR(100) ,
+Encode VARCHAR(100),
+Date_Time VARCHAR(100))
+
+SELECT * FROM tablcontacts
